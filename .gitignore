@@ -1,0 +1,34 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 打包产物（260MB，绝对不能进仓库）----------
+dist/
+build/
+*.pkg
+
+# ---------- 运行时配置 / 密钥 ----------
+# config.json 里是明文 API Key，任何情况下都不要提交
+config.json
+config.local.json
+
+# ---------- 运行时产物 / 隐私 ----------
+exam_auto_solver.log
+crash.log
+selftest_page.png
+debug_shots/
+
+# ---------- 旧版备份 ----------
+*.bak
+*.orig
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

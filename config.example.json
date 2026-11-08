@@ -1,0 +1,14 @@
+{
+  "api_key": "sk-把你的Key填在这里",
+  "base_url": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+  "llm_timeout": 60,
+  "dry_run": true,
+  "dot_offset_x": 35,
+  "max_answered": 90,
+  "start_countdown": 5,
+  "ocr_backend": "auto",
+  "save_debug_screenshot": true,
+  "click_next_button": true,
+  "speed": "快速"
+}
