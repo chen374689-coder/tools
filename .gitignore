@@ -11,6 +11,11 @@ dist/
 build/
 *.pkg
 
+# 发布用的压缩包别混进仓库（git 单文件上限 100MB）
+*.zip
+*.7z
+*.rar
+
 # ---------- 运行时配置 / 密钥 ----------
 # config.json 里是明文 API Key，任何情况下都不要提交
 config.json
