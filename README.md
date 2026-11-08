@@ -30,8 +30,8 @@ Windows 桌面工具，纯 Python，可一键打包成 exe。支持任意 OpenAI
 ## 安装
 
 ```bash
-git clone https://github.com/<你的用户名>/<仓库名>.git
-cd <仓库名>
+git clone https://github.com/chen374689-coder/tools.git
+cd tools
 python -m pip install -r requirements.txt
 ```
 
